@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>درباره یاسین خدابخشی</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=B+Titr&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.fontcdn.ir/Font/Persian/IranNastaliq/IranNastaliq.css" rel="stylesheet">
+
+
+    
+  </head>
+  <body>
+    <!-- Hamburger Button to Open the Slide Panel -->
+    <div class="hamburger" id="hamburger-btn">&#9776;</div>
+
+    <!-- Slide Panel (Menu) -->
+    <div class="side-panel" id="side-panel">
+      <div class="side-panel-content">
+        <ul>
+          <li><a href="/"><i class="fas fa-home"></i>‌خانه</a></li>
+          <li><a href="skills.html"><i class="fas fa-lightbulb"></i>مهارت ها</a></li>
+          <li><a href="experience.html"><i class="fas fa-suitcase"></i>تجربیات کاری</a></li>          
+        </ul>
+        <hr class="separator" />
+        <!-- Line added above the contact section -->
+        <div class="separator-line"></div>
+        <!-- Line Separator -->
+        <div class="contact">
+          <h2>ارتباط با من</h2>
+          <p><a href="mailto:yasinbhx@gmail.com"><i class="fas fa-envelope"></i>آدرس ایمیل</a></p>
+          <p><a href="https://instagram.com/yasinkhb133" target="_blank"><i class="fab fa-instagram"></i>پیج اینستاگرام</a></p>
+          <p><a href="https://t.me/yasinbhx" target="_blank"><i class="fab fa-telegram"></i>تلگرام</a></p>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner Section -->
+    <section class="banner">
+      <h1 class="title">یاسین خدابخشی</h1>
+    </section>
+
+    <!-- Personal Information Section -->
+    <section class="personal-info">
+      <h2>مشخصات فردی</h2>
+      <img
+        src="/images/yasin.jpg"
+        alt="Yasin Khodabakhshi"
+        class="profile-img"
+      />
+      <div class="info-wrapper">
+        <p><strong>نام:</strong> یاسین خدابخشی</p>
+        <p><strong>تاریخ تولد:</strong> ۱۸ بهمن ۱۳۸۸ (۱۵ ساله)</p>
+        <p><strong>حرفه:</strong> فریلنسر</p>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me">
+      <h2>درباره من</h2>
+      <div class="info-wrapper">
+        <p>
+          من یک توسعه‌دهنده‌ی فرانت‌اند با تمرکز بر طراحی حرفه‌ای و تجربه‌ی
+          کاربری روان هستم. مهارت بالایی در طراحی با فتوشاپ و ایجاد گرافیک‌های
+          جذاب دارم. همچنین، به‌عنوان یک تایپیست سریع و دقیق، توانایی تولید
+          محتوای متنی را با کیفیت بالا دارم. به زبان انگلیسی نیز به صورت کامل
+          مسلط هستم. علاوه بر مهارت‌های فنی، به ورزش‌های رزمی، به‌ویژه بوکس
+          علاقه‌مندم و سه سال است که به‌صورت مداوم در حال تمرین بوکس هستم.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>به ذره گر نظر لطف بوتراب کند</p>
+      <p>به آسمان رود و کار آفتاب کند</p>
+    </footer>
+
+    <!-- JavaScript for the Slide Panel -->
+    <script>
+      // Get elements
+      const hamburgerBtn = document.getElementById("hamburger-btn");
+      const sidePanel = document.getElementById("side-panel");
+
+      // Toggle the side panel
+      hamburgerBtn.addEventListener("click", () => {
+        sidePanel.classList.toggle("open");
+      });
+    </script>
+  </body>
+</html>
